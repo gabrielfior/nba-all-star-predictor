@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "*.py",
-      "use": "@now/python",
-      "config": { "maxLambdaSize": "10mb" } }
-  ],
-  "features": {
+  "name": "nba-all-star-predictor",
+    "features": {
         "cloud": "v1"
     }
 }
+
